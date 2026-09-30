@@ -1,0 +1,11 @@
+{
+  "name": "vajranow-ai-root",
+  "version": "2.4.0",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "backend": "python backend/run.py",
+    "frontend": "cd frontend && npx vite"
+  }
+}
